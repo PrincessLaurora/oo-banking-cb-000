@@ -6,9 +6,11 @@ class Transfer
     @sender = sender
     @receiver = receiver
     @status = "pending"
-    @amount = 50
+    @amount = amount
   end
 
-
+  def valid
+    @name.valid && self.valid
+  end  
 
 end

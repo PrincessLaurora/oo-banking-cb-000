@@ -14,6 +14,6 @@ end
 
 def balance
   "Your balance is $#{@balance}."
-end  
+end
 
 end

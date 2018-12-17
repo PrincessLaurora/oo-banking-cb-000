@@ -12,5 +12,8 @@ def deposit(money)
   @balance += money
 end
 
+def balance
+  "Your balance is $#{@balance}."
+end  
 
 end
